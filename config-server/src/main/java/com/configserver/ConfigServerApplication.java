@@ -9,9 +9,6 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 public class ConfigServerApplication {
 
 	public static void main(String[] args) {
-
-		int x="89";
-		String s="you are good";
 		SpringApplication.run(ConfigServerApplication.class, args);
 	}
 
